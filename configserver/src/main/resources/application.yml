@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/ruobai-s/aispringcloud.git
           search-paths: config
-          username: ruobai-s
+          username: 2522100775@qq.com
           password: zyzonlyyou0809
       label: master
 eureka:
