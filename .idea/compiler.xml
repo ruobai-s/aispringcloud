@@ -10,13 +10,14 @@
         <module name="nativeconfigclient" />
         <module name="zuul" />
         <module name="nativeConfigserver" />
-        <module name="eurekaclient" />
         <module name="resttemplate" />
         <module name="hystrix" />
+        <module name="Feign" />
         <module name="ribbon" />
+        <module name="configserver" />
         <module name="eurekaserver" />
         <module name="consumer" />
-        <module name="Feign" />
+        <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
   </component>
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Feign" options="-parameters" />
       <module name="aispringcloud" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
